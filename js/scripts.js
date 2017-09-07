@@ -15,6 +15,11 @@
     // Remove no-js class
     $('html').removeClass('no-js');
 
+    $('#download-resume').click(function(e) {
+        e.preventDefault();
+        window.location.href = "./docs/Resume.pdf";
+    });
+
     // Animate to section when nav is clicked
     $('header a').click(function(e) {
 
