@@ -151,11 +151,11 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Donald Trump Twitter</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            The initial idea was to create a Twitter bot that would tweet similar phrases to those of Donald Trump. After scraping all of Donald Trumps tweets and removing all non-alphanumeric characters, I used an open source Recurrent Neural Network found <a link="https://github.com/jcjohnson/torch-rnn">here</a> and had it train on all of the scraped tweets. Unfortunately, 500kb of tweets is no where near enough data for an RNN to train on. The link below is for the tweet scraper I wrote. In the Readme there is a link to the RNN, which includes instructions on how to set it up.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/Tmonster/tweet_scraper">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -167,11 +167,19 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Intrusion Detection System</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                           One assignment for my Computer Security and Privacy Course was to build an Intrusion Detection System. The IDS was built to monitor network traffic by inspecting packets and identifying attacks based on provided signatures in the assignment. Internet traffic was saved using the tcpdump command and then parsed from the pcap files produced from the Linux command. If a attack signature was detected, then program would print an alert with the details of the attack. The following attacks were identified
+                           <ul>
+                               <li> Spoofed packetd </li>
+                               <li> Unauthorized servers </li>
+                               <li> Sinkhole lookups </li>
+                               <li> ARP spooding </li>
+                               <li> IIS worms </li>
+                               <li> NTP reflection DDoS </li>
+                           </ul>
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="#https://github.com/Tmonster/MYIDS">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
